@@ -1,7 +1,7 @@
 {
-  "name": "http-server",
+  "name": "asciify-string",
   "preferGlobal": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Timothy Strimple <tim@tstrimple.com>",
   "description": "Convert a unicode string to a readable ascii-only string.",
   "main": "./asciify.js",
@@ -16,5 +16,6 @@
   "license": "Apache Version 2.0",
   "engines": {
     "node": ">=0.6"
-  }
+  },
+  "dependencies": {}
 }
