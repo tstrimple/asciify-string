@@ -47,7 +47,7 @@ charmap = {
   'Ž':'Z', 'ą':'a', 'ć':'c', 'ę':'e', 'ł':'l', 'ń':'n', 'ś':'s', 'ź':'z', 'ż':'z', 'Ą':'A', 
   'Ć':'C', 'Ę':'e', 'Ł':'L', 'Ń':'N', 'Ś':'S', 'Ź':'Z', 'Ż':'Z', 'ā':'a', 'ē':'e', 'ģ':'g', 
   'ī':'i', 'ķ':'k', 'ļ':'l', 'ņ':'n', 'ū':'u', 'Ā':'A', 'Ē':'E', 'Ģ':'G', 'Ī':'i', 'Ķ':'k', 
-  'Ļ':'L', 'Ņ':'N', 'Ū':'u', '€': 'euro', '₢': 'cruzeiro', '₣': 'french franc', '£': 'pound', 
+  'Ļ':'L', 'Ņ':'N', 'Ū':'u', '₺': 'turkish lira', '€': 'euro', '₢': 'cruzeiro', '₣': 'french franc', '£': 'pound', 
   '₤': 'lira', '₥': 'mill', '₦': 'naira', '₧': 'peseta', '₨': 'rupee', '₩': 'won', '₪': 'new shequel', 
   '₫': 'dong', '₭': 'kip', '₮': 'tugrik', '₯': 'drachma', '₰': 'penny', '₱': 'peso', '₲': 'guarani', 
   '₳': 'austral', '₴': 'hryvnia', '₵': 'cedi', '¢': 'cent', '¥': 'yen', '元': 'yuan', '円': 'yen', 
