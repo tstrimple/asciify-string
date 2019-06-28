@@ -11,7 +11,7 @@ Convert a unicode string to a readable ascii-only string.
     console.log(asciify('Déjà Vu')); // Deja Vu
 
 ## Asciify on NPM
-You can install node-slugs via NPM, like so:
+You can install asciify-string via NPM, like so:
 
   npm install asciify-string
 
