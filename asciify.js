@@ -1,25 +1,4 @@
-
-module.exports = function(text) {
-  for (var i = text.length - 1; i >= 0; i--) {
-    var c = text[i];
-
-    if(charmap[c]) {
-      text = setCharAt(text, i, charmap[c]);
-    }
-  }
-
-  return text;
-}
-
-function setCharAt(t, i, c) {
-  if(i > t.length - 1) {
-    return t;
-  }
-
-  return t.substr(0, i) + c + t.substr(i + 1);
-}
-
-charmap = {
+let charmap = {
   'À': 'A', 'Á': 'A', 'Â': 'A', 'Ã': 'A', 'Ä': 'A', 'Å': 'A', 'Æ': 'AE', 'Ç': 'C', 'È': 'E', 
   'É': 'E', 'Ê': 'E', 'Ë': 'E', 'Ì': 'I', 'Í': 'I', 'Î': 'I', 'Ï': 'I', 'Ð': 'D', 'Ñ': 'N', 
   'Ò': 'O', 'Ó': 'O', 'Ô': 'O', 'Õ': 'O', 'Ö': 'O', 'Ő': 'O', 'Ø': 'O', 'Ù': 'U', 'Ú': 'U', 
@@ -56,3 +35,23 @@ charmap = {
   '’': "'", '∂': 'd', 'ƒ': 'f', '™': 'tm', '℠': 'sm', '…': '...', '˚': 'o', 'º': 'o', 'ª': 'a',  
   '•': '*', '∆': 'delta', '∞': 'infinity', '♥': 'love', '&': 'and', '|': 'or', '<': 'less', '>': 'greater'
 };
+
+module.exports = function(text) {
+  for (var i = text.length - 1; i >= 0; i--) {
+    var c = text[i];
+
+    if(charmap[c]) {
+      text = setCharAt(text, i, charmap[c]);
+    }
+  }
+
+  return text;
+}
+
+function setCharAt(t, i, c) {
+  if(i > t.length - 1) {
+    return t;
+  }
+
+  return t.substr(0, i) + c + t.substr(i + 1);
+}
